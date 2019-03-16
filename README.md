@@ -1,2 +1,1 @@
-# orm-seq
-# orm-seq
+Uso de Sequelize cpomo ORM en Node
