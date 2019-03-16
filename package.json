@@ -1,0 +1,24 @@
+{
+  "name": "orm-seq",
+  "version": "0.0.1",
+  "description": "Uso de Sequelize como ORM en Node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sequelize",
+    "nodejs",
+    "javascript",
+    "mysql",
+    "database"
+  ],
+  "author": "wsirit",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7",
+    "sequelize": "^5.1.0"
+  }
+}
