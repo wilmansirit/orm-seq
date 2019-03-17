@@ -6,7 +6,7 @@ const 	express		= require('express')
 
 
 
-router.get('/', controllers.appControllers.index)
+router.get('/users', controllers.appControllers.index)
 
 
 
