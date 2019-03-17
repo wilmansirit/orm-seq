@@ -13,9 +13,10 @@ const sequelize = new Sequelize(
 		host	: 'localhost',
 		dialect	: 'mysql',
 		pool	: {
-			max: 50,
-			min: 0,
-			idle: 10000
+			max		: 50,
+			min		: 0,
+			adquire	: 30000,
+			idle	: 10000
 		}
 	}
 );
